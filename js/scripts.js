@@ -7,15 +7,15 @@ $(document).ready(function() {
 
 
 
+    $("input:checkbox[name=foods]:checked").each(function() {
 
+      var receipt = $(this).val();
+      console.log("data is", receipt);
 
+      // for (var i=0; i < receipt; i++)
+      ("#output").append(receipt + "<br>");
 
-  var receipt = $("<input>").val();
-  console.log("data is", receipt);
-
-  for (var i=0; i < receipt; i++)
-  ("#output").append( "<li>" + receipt + "</li>" );
-
+    });
 
 
 
