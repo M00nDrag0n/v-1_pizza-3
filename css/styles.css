@@ -134,3 +134,14 @@ button {
   top: 2850px;
   left: 150px;
 }
+
+input {
+  margin-left: 5px;
+}
+
+#output {
+  position: absolute;
+  top: 2900px;
+  left: 500px;
+
+}
